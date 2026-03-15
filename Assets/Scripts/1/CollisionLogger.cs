@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// 这是一个测试中文注释
 public class CollisionLogger : MonoBehaviour
 {
     void OnCollisionEnter(Collision collision)
