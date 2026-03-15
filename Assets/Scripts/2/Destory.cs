@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Destory : MonoBehaviour
 {
-    
+    //z
     public GameObject obj;
     // Start is called before the first frame update
     void Start()
