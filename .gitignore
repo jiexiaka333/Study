@@ -1,0 +1,33 @@
+# Unity 生成的文件夹
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# 编译生成的文件
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志文件
+*.log
+
+# Visual Studio 缓存文件
+.vs/
+
+# 忽略音乐文件（避免大文件）
+Assets/Music/
+*.mp3
+*.wav
+*.ogg

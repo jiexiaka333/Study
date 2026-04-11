@@ -1,0 +1,108 @@
+## 📚 Unity学习存档卡（截至Day11）
+
+**生成日期**：2026年4月11日  
+**当前阶段**：365天强化学习计划 · **Day11 完成**  
+**累计学习时间**：约 85-95 小时  
+
+---
+
+### 一、学习进度总览
+- **Day1-7**：基础移动、物理、动画、角色控制、Git、C#内存结构  
+- **Day8**：音效系统（AudioSource、3D音效）、粒子系统（火焰、爆炸）  
+- **Day9**：数据持久化（PlayerPrefs、JSON序列化、SaveSystem、异常处理）  
+- **Day10**：协程深度理解（IEnumerator、WaitForSeconds、StopCoroutine、技能冷却、淡出动画）  
+- **Day11**：UI系统进阶（动态创建UI、GridLayoutGroup、ContentSizeFitter、CanvasScaler适配、敌人血条跟随）  
+
+---
+
+### 二、已掌握的核心技能
+
+#### 编程与架构
+- C#：值/引用类型、泛型、协程、异常处理、单例模式  
+- 数据持久化：`PlayerPrefs`、`JsonUtility`、文件读写、存档/读档完整系统  
+- 版本控制：Git + GitHub（SSH），`.gitignore` 配置  
+
+#### Unity 核心组件
+- 动画：`Animator`、Blend Tree、动画事件  
+- 物理：`Rigidbody`、碰撞检测、触发器  
+- UI：`TextMeshPro`、`Slider`、`Image`、动态实例化、布局组（`GridLayoutGroup`、`VerticalLayoutGroup`）  
+- 音效：`AudioSource`（2D/3D）、`PlayOneShot`  
+- 粒子系统：循环特效与一次性爆炸  
+
+#### 重要实践
+- 角色移动 + 动画 + 音效 + 粒子特效完整集成  
+- 技能冷却（协程实现）  
+- 淡入淡出效果（协程 + `Color.Lerp`）  
+- 动态血条（世界坐标转屏幕坐标，跟随敌人）  
+- 自适应 UI（`CanvasScaler` + 锚点 + 自动布局）  
+
+---
+
+### 三、当前项目代码结构（关键脚本）
+- `PlayerController.cs`：移动、动画、脚步声、火焰/爆炸特效  
+- `SaveSystem.cs` + `GameData.cs`：JSON 存档系统  
+- `GameManager.cs`：游戏状态管理，保存/加载调用  
+- `SkillManager.cs`：技能冷却（协程）  
+- `FadeEffect.cs`：UI 淡出效果  
+- `Enemy.cs` + 动态血条：敌人扣血，血条跟随  
+- `InventoryUI.cs`：动态生成背包格子（GridLayoutGroup）  
+- `DynamicUIManager.cs`：代码创建 UI 元素  
+
+---
+
+### 四、已完成的典型任务
+1. 角色控制 + 动画事件播放脚步声 ✅  
+2. 火焰粒子开关（F键）、爆炸粒子（E键） ✅  
+3. 音量设置（`PlayerPrefs` + `Slider`） ✅  
+4. 存档/读档（K/L键）保存位置、血量、分数、火焰状态 ✅  
+5. 技能冷却（Q键，冷却5秒） ✅  
+6. 物体淡出效果（协程，3秒渐隐） ✅  
+7. 动态敌人血条（鼠标左键扣血，血条跟随头顶） ✅  
+8. 3×3背包格子（动态生成，带编号） ✅  
+9. 自适应主菜单（垂直布局 + `CanvasScaler`） ✅  
+
+---
+
+### 五、GitHub 仓库
+- **地址**：`https://github.com/jiexiaka333/Study`  
+- **SSH**：`git@github.com:jiexiaka333/Study.git`  
+- **最后提交**：Day11 UI进阶  
+
+---
+
+### 六、下一步学习计划（Day12 起）
+
+#### Day12：UI 动画与效果
+- DoTween 插件入门（或使用 Unity 自带 Animation 组件）  
+- UI 弹窗、按钮悬停效果、进度条动画  
+
+#### Day13-14：对象池与性能优化
+- 对象池模式（子弹、敌人复用）  
+- `Profiler` 性能分析  
+- 减少 GC 分配  
+
+#### Day15-16：3D 数学巩固
+- 向量点乘/叉乘、四元数、坐标转换  
+- 摄像机跟随、射线检测  
+
+#### Day17-20：完整小项目实战
+- 整合所有知识，制作一个可玩的 2D/3D 小游戏（包含开始菜单、存档、UI 反馈、音效等）  
+
+---
+
+### 七、新对话启动指令
+在新对话中发送以下内容，即可无缝继续：
+
+> **“请根据以下存档卡继续我的 Unity 学习计划，从 Day12 开始：**  
+> （复制本存档卡全部内容）”  
+
+---
+
+### 八、每日学习节奏（参考）
+- 工作日：早上 2.5-3 小时  
+- 周末：5 小时  
+- 平均每周：约 22.5 小时  
+
+---
+
+**保存此卡片，您可以在任何新对话中快速恢复学习进度。继续加油！🚀**
